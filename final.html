@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+   
+    <div
+      class="dark:bg-black w-[100vw] flex justify-center items-center h-[100vh]"
+    >
+ 
+      <div
+        id="content"
+        class="card overflow-scroll bg-base-100 dark:bg-slate-900 w-96 shadow-sm"
+      ></div>
+      <button
+        id="next"
+        class="btn hidden ml-4 bg-white px-2 text-md font-medium dark:bg-indigo-800 dark:text-white"
+      >
+        next
+      </button>
+           <div id="pop" class=" hidden h-[100vh] w-[90vw]  fixed z-[100] bg-slate-100 flex justify-center items-center ">
+
+    <div  class="card  dark:bg-slate-900 drak:text-white  w-96 bg-base-100 shadow-lg">
+     <div class="card-body">
+       <h2 class="card-title dark:text-indigo-600 font-bold">ho gya -_-</h2>
+       <p  id="pip" class="text-md font-md dark:text-white"></p>
+       <div class="card-actions justify-end">
+         <button id="btn" class="btn bg-indigo-900 text-white px-3 btn-primary">cya✨</button>
+       </div>
+     </div>
+   </div>
+    </div>
+    
+    <script type="module" src="./finalScript.js"></script>
+  </body>
+</html>

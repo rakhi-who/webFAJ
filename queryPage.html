@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<htm lang="en">
+<head>
+  <style>
+    #alert-res{
+background: rgba(244, 244, 248 , 0.5);      
+    
+    }
+  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>query</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="dark:bg-black">
+  <div id="alert-res" class="hidden h-[100vh] w-[100vw]  fixed z-[100] bg-slate-100 flex justify-center items-center ">
+
+    <div  class="card  dark:bg-slate-900 drak:text-white  w-96 bg-base-100 shadow-lg">
+     <div class="card-body">
+       <h2 class="card-title dark:text-indigo-600 font-bold">Quize is over</h2>
+       <p  id="pop-p" class="text-md font-md dark:text-white"></p>
+       <div class="card-actions justify-end">
+         <button id="pop-btn" class="btn bg-indigo-900 text-white px-3 btn-primary"></button>
+       </div>
+     </div>
+   </div>
+  </div>
+
+    <h1 class="fixed bg-blue-950 w-full text-white font-bold text-2xl z-100 p-4"><a href="./index.html">back</a></h1>
+    <div class=" dark:bg-black card w-[100%] overflow-hidden flex  justify-center content-center items-center bg-base-100 card-xs flex shadow-sm">
+  <div  id="ques" class=" overflow-scroll mt-[100px] h-[100vh] flex flex-row flex-wrap justify-around  w-[100vw] card-body">
+   
+</div>
+  
+</div>
+  
+<script type="module" src="./scrpt.js" ></script>
+</body>
+</html>
