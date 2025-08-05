@@ -84,11 +84,12 @@ document.querySelectorAll("button[data-question-index]").forEach((button) => {
 document.getElementById("pop-btn").addEventListener('click' , ()=>{
   if(result>=4){
     setTimeout(() => {
-  window.location.href = "final.html";
+  window.location.href = "/webFAJ/final.html";
 }, 1000);
   }else{
     setTimeout(() => {
-  window.location.href = "index.html";
+  window.location.href = "/webFAJ";
 }, 2000);
   }
 })
+
